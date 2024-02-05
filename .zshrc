@@ -56,6 +56,8 @@ alias j='jobs -l'
 alias p='pwd'
 alias v='vim'
 alias o='fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs open'
+
+# VS code aliases
 alias code.='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code .'
 alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 
