@@ -35,7 +35,8 @@ mkdcd() {
 }
 
 # Aliases
-alias ls='lsd -tr'
+alias ls="lsd -tra" # t sorts output based on time, r is reverse flag and a is to show all files
+# TMUX aliases
 alias tm='tmux'
 alias tma='tmux attach-session -t'
 alias tmls='tmux ls'
@@ -43,6 +44,8 @@ alias tmn='tmux new -s'
 alias tmd='tmux detach'
 alias tmt='tmux kill-session -t'
 alias tmrn='tmux rename-session -t'
+
+# Navigation aliases
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -53,8 +56,8 @@ alias j='jobs -l'
 alias p='pwd'
 alias v='vim'
 alias o='fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs open'
-
-
+alias code.='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code .'
+alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 
 # local colo='%F{yellow}%~%f'
 # PROMPT="╭─${colo} ─────
