@@ -1,6 +1,6 @@
 # This repository contains the configuration files for my system.
 
-The folder can be directly cloned in the HOME folder and then, can be used using [GNU STOW]().
+The folder can be directly cloned in the HOME folder and then, can be used using [GNU STOW](https://www.gnu.org/software/stow/).
 
 - STOW can be installed using the following command on mac:
 ```bash
