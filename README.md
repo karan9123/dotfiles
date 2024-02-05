@@ -9,7 +9,7 @@ brew install stow
 
 Then in the dotfiles folder, paste the following command:
 ```bash
-brew install stow
+stow .
 ```
 
 More details can be found in this helpful youtube video on using stow:
